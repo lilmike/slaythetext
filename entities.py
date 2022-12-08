@@ -1834,7 +1834,7 @@ def visit_treasureChest():
     else:
         chestType = "Large Chest"
 
-    ansiprint("You're standing in front of a",chestType+". <light-red>You wonder what's insinde</light-red>.")
+    ansiprint("You're standing in front of a",chestType+". <light-red>You wonder what's inside</light-red>.")
     if nlothsHungryFace == False:
         chestRelic = helping_functions.generateRelicRewards(place=chestType)
         if blueKey == False:

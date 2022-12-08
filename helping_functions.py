@@ -1489,7 +1489,7 @@ def definePotionPrize(potion):
     return prize
 
 def displayShop(shoplist):
-    ansiprint("\"Welcome at my Shop\", says the wondrous <blue>blue robbed figure</blue> sitting in front of you on odd <green>green flooring</green>. \"Have a look at my wares\".")
+    ansiprint("\"Welcome to my Shop\", says the wondrous <blue>blue robed figure</blue> sitting in front of you on odd <green>green flooring</green>. \"Have a look at my wares\".")
     global removeCardCost
 
     changePrize = False
